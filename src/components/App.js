@@ -1,9 +1,12 @@
 import React from 'react'
+import CommentBox from './CommentBox'
+import CommentList from './CommentList'
 
 function App() {
     return (
         <div>
-            Hi there you
+            <CommentBox />
+            <CommentList />
         </div>
     )
 }
